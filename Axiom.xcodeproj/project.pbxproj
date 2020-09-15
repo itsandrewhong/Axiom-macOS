@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1C71AFB250DDEBD00009E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71AFA250DDEBD00009E2A /* AppDelegate.swift */; };
+		A1C71AFD250DDEBD00009E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71AFC250DDEBD00009E2A /* ContentView.swift */; };
+		A1C71AFF250DDEBD00009E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C71AFE250DDEBD00009E2A /* Assets.xcassets */; };
+		A1C71B02250DDEBD00009E2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C71B01250DDEBD00009E2A /* Preview Assets.xcassets */; };
+		A1C71B05250DDEBD00009E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C71B03250DDEBD00009E2A /* Main.storyboard */; };
+		A1C71B11250DDEBE00009E2A /* AxiomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71B10250DDEBE00009E2A /* AxiomTests.swift */; };
+		A1C71B1C250DDEBE00009E2A /* AxiomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71B1B250DDEBE00009E2A /* AxiomUITests.swift */; };
+		A1C71B2B2510580900009E2A /* pictures.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C71B292510580900009E2A /* pictures.json */; };
+		A1C71B2C2510580900009E2A /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C71B2A2510580900009E2A /* quotes.json */; };
+		A1C71B2F2510583400009E2A /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71B2D2510583300009E2A /* Bundle-Decoding.swift */; };
+		A1C71B302510583400009E2A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71B2E2510583300009E2A /* Quote.swift */; };
+		A1C71B322510583D00009E2A /* ImageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C71B312510583D00009E2A /* ImageOverlay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C71B0D250DDEBE00009E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C71AEF250DDEBD00009E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C71AF6250DDEBD00009E2A;
+			remoteInfo = Axiom;
+		};
+		A1C71B18250DDEBE00009E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C71AEF250DDEBD00009E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C71AF6250DDEBD00009E2A;
+			remoteInfo = Axiom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1C71AF7250DDEBD00009E2A /* Axiom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axiom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C71AFA250DDEBD00009E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1C71AFC250DDEBD00009E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1C71AFE250DDEBD00009E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1C71B01250DDEBD00009E2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1C71B04250DDEBD00009E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C71B06250DDEBD00009E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C71B07250DDEBD00009E2A /* Axiom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Axiom.entitlements; sourceTree = "<group>"; };
+		A1C71B0C250DDEBE00009E2A /* AxiomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxiomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C71B10250DDEBE00009E2A /* AxiomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxiomTests.swift; sourceTree = "<group>"; };
+		A1C71B12250DDEBE00009E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C71B17250DDEBE00009E2A /* AxiomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxiomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C71B1B250DDEBE00009E2A /* AxiomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxiomUITests.swift; sourceTree = "<group>"; };
+		A1C71B1D250DDEBE00009E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C71B292510580900009E2A /* pictures.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pictures.json; sourceTree = "<group>"; };
+		A1C71B2A2510580900009E2A /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		A1C71B2D2510583300009E2A /* Bundle-Decoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		A1C71B2E2510583300009E2A /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A1C71B312510583D00009E2A /* ImageOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageOverlay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C71AF4250DDEBD00009E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C71B09250DDEBE00009E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C71B14250DDEBE00009E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C71AEE250DDEBD00009E2A = {
+			isa = PBXGroup;
+			children = (
+				A1C71AF9250DDEBD00009E2A /* Axiom */,
+				A1C71B0F250DDEBE00009E2A /* AxiomTests */,
+				A1C71B1A250DDEBE00009E2A /* AxiomUITests */,
+				A1C71AF8250DDEBD00009E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C71AF8250DDEBD00009E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C71AF7250DDEBD00009E2A /* Axiom.app */,
+				A1C71B0C250DDEBE00009E2A /* AxiomTests.xctest */,
+				A1C71B17250DDEBE00009E2A /* AxiomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C71AF9250DDEBD00009E2A /* Axiom */ = {
+			isa = PBXGroup;
+			children = (
+				A1C71AFA250DDEBD00009E2A /* AppDelegate.swift */,
+				A1C71AFC250DDEBD00009E2A /* ContentView.swift */,
+				A1C71B312510583D00009E2A /* ImageOverlay.swift */,
+				A1C71B2D2510583300009E2A /* Bundle-Decoding.swift */,
+				A1C71B2E2510583300009E2A /* Quote.swift */,
+				A1C71AFE250DDEBD00009E2A /* Assets.xcassets */,
+				A1C71B03250DDEBD00009E2A /* Main.storyboard */,
+				A1C71B06250DDEBD00009E2A /* Info.plist */,
+				A1C71B07250DDEBD00009E2A /* Axiom.entitlements */,
+				A1C71B292510580900009E2A /* pictures.json */,
+				A1C71B2A2510580900009E2A /* quotes.json */,
+				A1C71B00250DDEBD00009E2A /* Preview Content */,
+			);
+			path = Axiom;
+			sourceTree = "<group>";
+		};
+		A1C71B00250DDEBD00009E2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1C71B01250DDEBD00009E2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1C71B0F250DDEBE00009E2A /* AxiomTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C71B10250DDEBE00009E2A /* AxiomTests.swift */,
+				A1C71B12250DDEBE00009E2A /* Info.plist */,
+			);
+			path = AxiomTests;
+			sourceTree = "<group>";
+		};
+		A1C71B1A250DDEBE00009E2A /* AxiomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C71B1B250DDEBE00009E2A /* AxiomUITests.swift */,
+				A1C71B1D250DDEBE00009E2A /* Info.plist */,
+			);
+			path = AxiomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C71AF6250DDEBD00009E2A /* Axiom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C71B20250DDEBE00009E2A /* Build configuration list for PBXNativeTarget "Axiom" */;
+			buildPhases = (
+				A1C71AF3250DDEBD00009E2A /* Sources */,
+				A1C71AF4250DDEBD00009E2A /* Frameworks */,
+				A1C71AF5250DDEBD00009E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Axiom;
+			productName = Axiom;
+			productReference = A1C71AF7250DDEBD00009E2A /* Axiom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C71B0B250DDEBE00009E2A /* AxiomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C71B23250DDEBE00009E2A /* Build configuration list for PBXNativeTarget "AxiomTests" */;
+			buildPhases = (
+				A1C71B08250DDEBE00009E2A /* Sources */,
+				A1C71B09250DDEBE00009E2A /* Frameworks */,
+				A1C71B0A250DDEBE00009E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C71B0E250DDEBE00009E2A /* PBXTargetDependency */,
+			);
+			name = AxiomTests;
+			productName = AxiomTests;
+			productReference = A1C71B0C250DDEBE00009E2A /* AxiomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1C71B16250DDEBE00009E2A /* AxiomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C71B26250DDEBE00009E2A /* Build configuration list for PBXNativeTarget "AxiomUITests" */;
+			buildPhases = (
+				A1C71B13250DDEBE00009E2A /* Sources */,
+				A1C71B14250DDEBE00009E2A /* Frameworks */,
+				A1C71B15250DDEBE00009E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C71B19250DDEBE00009E2A /* PBXTargetDependency */,
+			);
+			name = AxiomUITests;
+			productName = AxiomUITests;
+			productReference = A1C71B17250DDEBE00009E2A /* AxiomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C71AEF250DDEBD00009E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Raonpia;
+				TargetAttributes = {
+					A1C71AF6250DDEBD00009E2A = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					A1C71B0B250DDEBE00009E2A = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = A1C71AF6250DDEBD00009E2A;
+					};
+					A1C71B16250DDEBE00009E2A = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = A1C71AF6250DDEBD00009E2A;
+					};
+				};
+			};
+			buildConfigurationList = A1C71AF2250DDEBD00009E2A /* Build configuration list for PBXProject "Axiom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C71AEE250DDEBD00009E2A;
+			productRefGroup = A1C71AF8250DDEBD00009E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C71AF6250DDEBD00009E2A /* Axiom */,
+				A1C71B0B250DDEBE00009E2A /* AxiomTests */,
+				A1C71B16250DDEBE00009E2A /* AxiomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C71AF5250DDEBD00009E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C71B2B2510580900009E2A /* pictures.json in Resources */,
+				A1C71B2C2510580900009E2A /* quotes.json in Resources */,
+				A1C71B05250DDEBD00009E2A /* Main.storyboard in Resources */,
+				A1C71B02250DDEBD00009E2A /* Preview Assets.xcassets in Resources */,
+				A1C71AFF250DDEBD00009E2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C71B0A250DDEBE00009E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C71B15250DDEBE00009E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C71AF3250DDEBD00009E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C71B302510583400009E2A /* Quote.swift in Sources */,
+				A1C71B2F2510583400009E2A /* Bundle-Decoding.swift in Sources */,
+				A1C71B322510583D00009E2A /* ImageOverlay.swift in Sources */,
+				A1C71AFD250DDEBD00009E2A /* ContentView.swift in Sources */,
+				A1C71AFB250DDEBD00009E2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C71B08250DDEBE00009E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C71B11250DDEBE00009E2A /* AxiomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C71B13250DDEBE00009E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C71B1C250DDEBE00009E2A /* AxiomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C71B0E250DDEBE00009E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C71AF6250DDEBD00009E2A /* Axiom */;
+			targetProxy = A1C71B0D250DDEBE00009E2A /* PBXContainerItemProxy */;
+		};
+		A1C71B19250DDEBE00009E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C71AF6250DDEBD00009E2A /* Axiom */;
+			targetProxy = A1C71B18250DDEBE00009E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1C71B03250DDEBD00009E2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C71B04250DDEBD00009E2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C71B1E250DDEBE00009E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1C71B1F250DDEBE00009E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1C71B21250DDEBE00009E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Axiom/Axiom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Axiom/Preview Content\"";
+				DEVELOPMENT_TEAM = 692V4J2VXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Axiom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raonpia.macOS.Axiom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1C71B22250DDEBE00009E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Axiom/Axiom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Axiom/Preview Content\"";
+				DEVELOPMENT_TEAM = 692V4J2VXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Axiom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raonpia.macOS.Axiom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1C71B24250DDEBE00009E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 692V4J2VXL;
+				INFOPLIST_FILE = AxiomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raonpia.macOS.AxiomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axiom.app/Contents/MacOS/Axiom";
+			};
+			name = Debug;
+		};
+		A1C71B25250DDEBE00009E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 692V4J2VXL;
+				INFOPLIST_FILE = AxiomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raonpia.macOS.AxiomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Axiom.app/Contents/MacOS/Axiom";
+			};
+			name = Release;
+		};
+		A1C71B27250DDEBE00009E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 692V4J2VXL;
+				INFOPLIST_FILE = AxiomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raonpia.macOS.AxiomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Axiom;
+			};
+			name = Debug;
+		};
+		A1C71B28250DDEBE00009E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 692V4J2VXL;
+				INFOPLIST_FILE = AxiomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raonpia.macOS.AxiomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Axiom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C71AF2250DDEBD00009E2A /* Build configuration list for PBXProject "Axiom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C71B1E250DDEBE00009E2A /* Debug */,
+				A1C71B1F250DDEBE00009E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C71B20250DDEBE00009E2A /* Build configuration list for PBXNativeTarget "Axiom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C71B21250DDEBE00009E2A /* Debug */,
+				A1C71B22250DDEBE00009E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C71B23250DDEBE00009E2A /* Build configuration list for PBXNativeTarget "AxiomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C71B24250DDEBE00009E2A /* Debug */,
+				A1C71B25250DDEBE00009E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C71B26250DDEBE00009E2A /* Build configuration list for PBXNativeTarget "AxiomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C71B27250DDEBE00009E2A /* Debug */,
+				A1C71B28250DDEBE00009E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C71AEF250DDEBD00009E2A /* Project object */;
+}
