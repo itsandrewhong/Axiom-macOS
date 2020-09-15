@@ -1,6 +1,6 @@
 //
 //  ImageOverlay.swift
-//  Demo
+//  Axiom
 //
 //  Created by Andrew Hong on 9/13/20.
 //  Copyright © 2020 Raonpia. All rights reserved.
